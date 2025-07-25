@@ -1,0 +1,174 @@
+{
+	"common": {
+		"include": [
+      "abcde",
+      "adw-gtk3-theme",
+      "android-tools",
+      "autoconf",
+      "bootc",
+      "bzip2",
+      "firewall-config",
+      "fish",
+      "flac",
+      "fuse",
+      "fuse-sshfs",
+      "gawk",
+      "gcc",
+      "gdbm-devel",
+      "git",
+      "git-delta",
+      "lame",
+      "libffi-devel",
+      "libtree-sitter",
+      "libyaml-devel",
+      "lm_sensors",
+      "make",
+      "mesa-libGLU",
+      "mozc",
+      "neovim",
+      "ncurses-devel",
+      "nu",
+      "oddjob-mkhomedir",
+      "openssh",
+      "openssl-devel",
+      "opus-tools",
+      "p7zip",
+      "p7zip-plugins",
+      "patch",
+      "perl-FindBin",
+      "pipewire",
+      "pulseaudio-utils",
+      "rclone",
+      "readline-devel",
+      "rust",
+      "samba",
+      "samba-dcerpc",
+      "samba-ldb-ldap-modules",
+      "samba-winbind-clients",
+      "samba-winbind-modules",
+      "stow",
+      "tree-sitter-cli",
+      "unzip",
+      "vorbis-tools",
+      "wireguard-tools",
+      "wireplumber",
+      "zsh"
+    ],
+		"exclude": [
+      "fedora-bookmarks",
+      "fedora-chromium-config",
+      "fedora-chromium-config-gnome",
+      "firefox",
+      "firefox-langpacks",
+      "podman-docker"
+    ]
+	},
+  "ublue": {
+    "include": [
+    ],
+    "exclude": []
+  }
+  "fonts": {
+    "include": [
+      "adobe-source-code-pro-fonts",
+      "cascadia-code-fonts",
+      "fira-code-fonts",
+      "google-droid-fonts-all",
+      "google-noto-fonts-all",
+      "google-noto-emoji-fonts",
+      "google-noto-color-emoji-fonts",
+      "ibm-plex-mono-fonts",
+      "jetbrains-mono-fonts",
+      "mozilla-fira-mono-fonts",
+      "nerd-fonts",
+      "source-foundry-hack-fonts"
+    ],
+    "exclude": []
+  },
+  "icons": {
+    "include": [
+      "adwaita-icon-theme",
+      "cosmic-icon-theme",
+      "folder-color-switcher",
+      "mint-x-icons",
+      "mint-y-icons",
+      "papirus-icon-theme",
+      "yaru-icon-theme"
+    ],
+    "exclude": []
+  },
+  "gaming": {
+    "include": [],
+    "exclude": []
+  },
+  "gnome": {
+    "include": [],
+    "exclude": [
+      "gnome-extensions-app",
+      "gnome-shell-extension-background-logo",
+      "gnome-software-rpm-ostree",
+      "gnome-terminal-nautilus",
+      "gnome-tweaks",
+      "yelp"
+    ]
+  },
+  "hyprland": {
+    "include": [
+      "hypridle",
+      "hyprland",
+      "hyprland-contrib",
+      "hyprland-plugins",
+      "hyprlock",
+      "hyprpaper",
+      "hyprpolkitagent",
+      "hyprsysteminfo",
+      "xdg-desktop-portal-hyprland"
+    ],
+    "exclude": []
+  },
+  "themes": {
+    "include": [
+      "arc-theme",
+      "mint-themes",
+      "yaru-theme"
+    ],
+    "exclude": []
+  },
+  "wayland": {
+    "include": [
+      "libmpd",
+      "mako",
+      "mpc",
+      "mpv",
+      "mpv-mpris",
+      "ncmpcpp",
+      "waybar",
+      "waypaper",
+      "wl-clipboard",
+      "wofi",
+      "xwayland-satellite"
+    ],
+    "exclude": []
+  }
+  "virt": {
+    "include": [
+      "libvirt",
+      "libvirt-nss",
+      "qemu",
+      "qemu-char-spice",
+      "qemu-device-display-virtio-gpu",
+      "qemu-device-display-virtio-vga",
+      "qemu-device-usb-redirect",
+      "qemu-img",
+      "qemu-system-x86-core",
+      "qemu-user-binfmt",
+      "qemu-user-static",
+      "virt-manager",
+      "virt-p2v",
+      "virt-v2v",
+      "virt-top",
+      "virt-viewer",
+    ],
+    "exclude": []
+  }
+}
