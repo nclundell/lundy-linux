@@ -93,8 +93,7 @@
       "folder-color-switcher",
       "mint-x-icons",
       "mint-y-icons",
-      "papirus-icon-theme",
-      "yaru-icon-theme"
+      "papirus-icon-theme"
     ],
     "exclude": []
   },
@@ -143,10 +142,13 @@
       "mpv",
       "mpv-mpris",
       "ncmpcpp",
+      "network-manager-applet",
+      "udiskie",
       "waybar",
       "waypaper",
       "wl-clipboard",
       "wofi",
+      "xdg-user-dirs-gtk",
       "xwayland-satellite"
     ],
     "exclude": []
