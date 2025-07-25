@@ -167,7 +167,7 @@
       "virt-p2v",
       "virt-v2v",
       "virt-top",
-      "virt-viewer",
+      "virt-viewer"
     ],
     "exclude": []
   }
