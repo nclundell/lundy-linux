@@ -67,7 +67,7 @@
     "include": [
     ],
     "exclude": []
-  }
+  },
   "fonts": {
     "include": [
       "adobe-source-code-pro-fonts",
@@ -149,7 +149,7 @@
       "xwayland-satellite"
     ],
     "exclude": []
-  }
+  },
   "virt": {
     "include": [
       "libvirt",
