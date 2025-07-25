@@ -38,6 +38,7 @@
       "perl-FindBin",
       "pipewire",
       "pulseaudio-utils",
+      "python3-pip",
       "rclone",
       "readline-devel",
       "rust",
