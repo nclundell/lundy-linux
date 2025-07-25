@@ -8,6 +8,6 @@ readarray -t WAYLAND_PKGS < <(jq -r ".wayland.include | sort | unique[]" /ctx/bu
 
 dnf5 -y copr enable solopasha/hyprland
 
-dnf5 -y install "${HYPRLAND_PKGS[@]}" "${WAYLAND_PKGS[@]}"
+dnf5 -y install --skip-unavailable "${HYPRLAND_PKGS[@]}" "${WAYLAND_PKGS[@]}"
 
 dnf5 -y copr disable solopasha/hyprland

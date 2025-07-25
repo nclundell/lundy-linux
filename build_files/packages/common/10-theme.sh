@@ -10,6 +10,6 @@ readarray -t THEME_PKGS < <(jq -r ".themes.include | sort | unique[]" /ctx/build
 
 dnf5 -y copr enable che/nerd-fonts
 
-dnf5 -y install "${FONT_PKGS[@]} ${ICON_PKGS[@]} ${THEME_PKGS[@]}"
+dnf5 -y install --skip-unavailable "${FONT_PKGS[@]} ${ICON_PKGS[@]} ${THEME_PKGS[@]}"
 
 dnf5 -y copr disable che/nerd-fonts
