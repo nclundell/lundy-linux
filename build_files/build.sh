@@ -7,7 +7,7 @@ set -ouex pipefail
 
 # Common Packages
 /ctx/build_files/packages/common/10-common.sh
-# /ctx/build_files/packages/common/11-ublue.sh
+/ctx/build_files/packages/common/11-ublue.sh
 
 /ctx/build_files/packages/common/30-fonts.sh
 /ctx/build_files/packages/common/31-icons.sh
