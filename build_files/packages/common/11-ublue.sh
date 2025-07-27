@@ -18,13 +18,10 @@ if [[ "$(rpm -E %fedora)" -eq "42" ]]; then
 fi
 
 # Setup Systemd
-systemctl enable rpm-ostree-countme.service
 systemctl enable brew-setup.service
 systemctl enable brew-upgrade.timer
 systemctl enable brew-update.timer
-systemctl enable ublue-fix-hostname.service
-systemctl enable check-sb-key.service
-systemctl enable input-remapper.service
+systemctl enable ublue-os-libvirt-workarounds.service
 systemctl --global enable podman-auto-update.timer
 
 # Updater
