@@ -10,6 +10,8 @@
       "bzip2",
       "firewall-config",
       "fish",
+      "flatpak",
+      "flatseal",
       "fuse",
       "fuse-sshfs",
       "gawk",
