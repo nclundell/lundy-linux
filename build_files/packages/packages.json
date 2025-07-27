@@ -126,13 +126,13 @@
   },
   "icons": {
     "include": [
-      "adwaita-icon-theme",
       "mint-x-icons",
       "mint-y-icons",
       "numix-icon-theme",
       "numix-icon-theme-circle",
       "numix-icon-theme-square",
-      "papirus-icon-theme"
+      "papirus-icon-theme",
+      "yaru-icon-theme"
     ],
     "exclude": []
   },
@@ -140,7 +140,9 @@
     "include": [
       "arc-theme",
       "mint-themes",
-      "yaru-theme"
+      "yaru-gtk2-theme",
+      "yaru-gtk3-theme",
+      "yaru-gtk4-theme"
     ],
     "exclude": []
   },
