@@ -1,15 +1,15 @@
 {
 	"common": {
 		"include": [
-      "abcde",
       "adw-gtk3-theme",
       "android-tools",
       "autoconf",
+      "bluez",
+      "bluez-cups",
       "bootc",
       "bzip2",
       "firewall-config",
       "fish",
-      "flac",
       "fuse",
       "fuse-sshfs",
       "gawk",
@@ -17,7 +17,6 @@
       "gdbm-devel",
       "git",
       "git-delta",
-      "lame",
       "libffi-devel",
       "libtree-sitter",
       "libyaml-devel",
@@ -31,14 +30,12 @@
       "oddjob-mkhomedir",
       "openssh",
       "openssl-devel",
-      "opus-tools",
       "p7zip",
       "p7zip-plugins",
       "patch",
       "perl-FindBin",
       "pipewire",
       "pulseaudio-utils",
-      "python3-pip",
       "rclone",
       "readline-devel",
       "rust",
@@ -50,7 +47,6 @@
       "stow",
       "tree-sitter-cli",
       "unzip",
-      "vorbis-tools",
       "wireguard-tools",
       "wireplumber",
       "zsh"
@@ -64,11 +60,6 @@
       "podman-docker"
     ]
 	},
-  "ublue": {
-    "include": [
-    ],
-    "exclude": []
-  },
   "fonts": {
     "include": [
       "adobe-source-code-pro-fonts",
@@ -83,17 +74,6 @@
       "mozilla-fira-mono-fonts",
       "nerd-fonts",
       "source-foundry-hack-fonts"
-    ],
-    "exclude": []
-  },
-  "icons": {
-    "include": [
-      "adwaita-icon-theme",
-      "cosmic-icon-theme",
-      "folder-color-switcher",
-      "mint-x-icons",
-      "mint-y-icons",
-      "papirus-icon-theme"
     ],
     "exclude": []
   },
@@ -126,6 +106,34 @@
     ],
     "exclude": []
   },
+  "media": {
+    "include": [
+      "abcde",
+      "ffmpeg",
+      "flac",
+      "libmpd",
+      "lame",
+      "mpc",
+      "mpv",
+      "mpv-mpris",
+      "ncmpcpp",
+      "opus-tools",
+      "vorbis-tools"
+    ],
+    "exclude": []
+  },
+  "icons": {
+    "include": [
+      "adwaita-icon-theme",
+      "mint-x-icons",
+      "mint-y-icons",
+      "numix-icon-theme",
+      "numix-icon-theme-circle",
+      "numix-icon-theme-square",
+      "papirus-icon-theme"
+    ],
+    "exclude": []
+  },
   "themes": {
     "include": [
       "arc-theme",
@@ -134,16 +142,29 @@
     ],
     "exclude": []
   },
+  "ublue": {
+    "include": [
+      "bazaar",
+      "fwupd",
+      "topgrade",
+      "ublue-brew",
+      "ublue-polkit-rules",
+      "ublue-os-just",
+      "ublue-os-libvirt-workarounds",
+      "ublue-os-udev-rules",
+      "ublue-os-update-services",
+      "uupd",
+      "yafti"
+    ],
+    "exclude": []
+  },
   "wayland": {
     "include": [
+      "blueman",
       "foot",
-      "libmpd",
       "mako",
-      "mpc",
-      "mpv",
-      "mpv-mpris",
-      "ncmpcpp",
       "network-manager-applet",
+      "pavucontrol",
       "udiskie",
       "waybar",
       "waypaper",

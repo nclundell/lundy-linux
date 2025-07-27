@@ -83,10 +83,10 @@ screens:
             - DistroShelf: com.ranfdev.DistroShelf
             - Fedora Media Writer: org.fedoraproject.MediaWriter
             - Flatseal (Permission Manager): com.github.tchx84.Flatseal
-            - Mozilla Firefox: org.mozilla.firefox
+            - Mission Center: io.missioncenter.MissionCenter
             - Warehouse: io.github.flattool.Warehouse 
         Web Browsers:
-          description: Additional browsers to complement or replace Firefox.
+          description: Web browers, web browsers, web browsers!
           default: false
           packages:
             - Brave: com.brave.Browser
@@ -94,6 +94,7 @@ screens:
             - Google Chrome: com.google.Chrome
             - LibreWolf: io.gitlab.librewolf-community
             - Microsoft Edge: com.microsoft.Edge
+            - Mozilla Firefox: org.mozilla.firefox
             - Opera: com.opera.Opera
         Media:
           description: Music and Video

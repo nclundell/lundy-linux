@@ -3,13 +3,16 @@
 set -ouex pipefail
 
 # Hyprland
-/ctx/build_files/packages/00-hyprland.sh
+/ctx/build_files/packages/hyprland.sh
 
 # Common Packages
-/ctx/build_files/packages/common/00-common.sh
-/ctx/build_files/packages/common/10-theme.sh
+/ctx/build_files/packages/common/common.sh
+/ctx/build_files/packages/common/ublue.sh
 
-pip install --prefix=/usr yafti
+flatpak remote-add --system --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --user   --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+systemctl disable flatpak-add-fedora-repos.service
 
 systemctl enable podman.socket
 
